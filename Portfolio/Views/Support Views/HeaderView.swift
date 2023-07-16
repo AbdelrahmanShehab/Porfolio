@@ -39,26 +39,21 @@ struct HeaderView: View {
                     InfoView(infoTitle: appModel.portfolio.location, imageName: "mappin.and.ellipse")
                         .padding(.top, 8)
                     
+                    InfoView(infoTitle: appModel.portfolio.birth, imageName: "birthday.cake.fill")
+                        .padding(.top, 5)
+                    
                     InfoView(infoTitle: appModel.portfolio.phone, imageName: "phone.fill")
                         .padding(.top, 5)
                     
-                    InfoView(infoTitle: appModel.portfolio.birth, imageName: "birthday.cake.fill")
-                        .padding(.top, 5)
                     
                     InfoView(infoTitle: appModel.portfolio.email, imageName: "envelope.fill")
                         .padding(.top, 5)
                     Divider()
-                }
+                }//: VSTACK
                 .overlay(
                     RoundedRectangle(cornerRadius: 12).stroke(.gray, lineWidth: 3)
                 )
 
-            Divider()
-            
-            ProfileView()
-            
-            EducationView()
-                .padding(.top, 5)
             
         }//: VSTACK
     }

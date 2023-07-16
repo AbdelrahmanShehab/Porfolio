@@ -17,19 +17,35 @@ struct ContentView: View {
             Color(UIColor.systemBackground)
                 .ignoresSafeArea()
             
-            ScrollView(.vertical, showsIndicators: false) {
-                
-                VStack(alignment: .leading) {
-                    HeaderView(appModel: appModel)
+            VStack {
+                ScrollView(.vertical, showsIndicators: false) {
                     
-                    SkillsView(skills: appModel.portfolio.skills, width: UIScreen.main.bounds.width - 40)
-                        .padding(.top, 32)
-                    ExperiencesView(experiences: appModel.portfolio.experiences)
-                        .padding(.top, 32)
-
-                }//: VSTACK
-                .padding(24)
-            }//: SCROLL
+                    VStack(alignment: .leading) {
+                        HeaderView(appModel: appModel)
+                            .padding(.horizontal, 1)
+                        
+                        Divider()
+                        
+                        ProfileView()
+                        
+                        Divider()
+                        
+                        EducationView()
+                        
+                        Divider()
+                        
+                        SkillsView(skills: appModel.portfolio.skills, width: UIScreen.main.bounds.width - 40)
+                            .padding(.top, 32)
+                        
+                        ExperiencesView(experiences: appModel.portfolio.experiences)
+                            .padding(.top, 32)
+                        
+                    }//: VSTACK
+                    .padding(24)
+                }//: SCROLL
+                
+                LinksView()
+            }//: VSTACK
         }//: ZSTACK
     }
 }

@@ -25,7 +25,6 @@ struct ProfileView: View {
                     .lineSpacing(5)
             
         }//: VSTACK
-        
     }
 }
 

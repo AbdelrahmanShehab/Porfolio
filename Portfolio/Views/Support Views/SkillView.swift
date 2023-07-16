@@ -12,6 +12,7 @@ struct SkillView: View {
     var skill: Skill
     var width: CGFloat = 120
     
+    // MARK: -  VIEW
     var body: some View {
         VStack {
             Image(systemName: skill.image)

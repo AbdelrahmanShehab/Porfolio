@@ -31,6 +31,8 @@ struct Portfolio {
     let phone: String
     let email: String
     let birth: String
+    let githubLink: String
+    let linkedinLink: String
     
     let skills: [Skill]
     let experiences: [Experience]

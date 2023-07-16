@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// MARK: -  VIEW
 struct EducationView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 5) {
@@ -32,6 +33,7 @@ struct EducationView: View {
                 .opacity(0.65)
 
         }//: VSTACK
+        .padding(.top, 5)
     }
 }
 

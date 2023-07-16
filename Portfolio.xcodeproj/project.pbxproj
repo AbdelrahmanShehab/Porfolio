@@ -21,6 +21,7 @@
 		63A66D4A2A63A3E400D7AF51 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A66D492A63A3E400D7AF51 /* InfoView.swift */; };
 		63A66D4C2A63AA7600D7AF51 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A66D4B2A63AA7600D7AF51 /* ProfileView.swift */; };
 		63A66D4E2A63B5AA00D7AF51 /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A66D4D2A63B5AA00D7AF51 /* EducationView.swift */; };
+		63A66D502A64391300D7AF51 /* LinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A66D4F2A64391300D7AF51 /* LinksView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		63A66D492A63A3E400D7AF51 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		63A66D4B2A63AA7600D7AF51 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		63A66D4D2A63B5AA00D7AF51 /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
+		63A66D4F2A64391300D7AF51 /* LinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				63A66D472A6399DE00D7AF51 /* ExperiencesView.swift */,
 				63A66D4B2A63AA7600D7AF51 /* ProfileView.swift */,
 				63A66D4D2A63B5AA00D7AF51 /* EducationView.swift */,
+				63A66D4F2A64391300D7AF51 /* LinksView.swift */,
 			);
 			path = "Support Views";
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				63A66D3B2A6386BA00D7AF51 /* Portfolio.swift in Sources */,
 				63A66D482A6399DE00D7AF51 /* ExperiencesView.swift in Sources */,
 				63A66D2C2A63822E00D7AF51 /* ContentView.swift in Sources */,
+				63A66D502A64391300D7AF51 /* LinksView.swift in Sources */,
 				63A66D2A2A63822E00D7AF51 /* PortfolioApp.swift in Sources */,
 				63A66D3D2A63875E00D7AF51 /* AppModel.swift in Sources */,
 				63A66D4A2A63A3E400D7AF51 /* InfoView.swift in Sources */,
