@@ -24,6 +24,9 @@ struct Portfolio {
     let name: String
     let role: String
     let description: String
+    let education: String
+    let university: String
+    let graduationYear: String
     let location: String
     let phone: String
     let email: String

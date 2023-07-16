@@ -32,26 +32,33 @@ struct HeaderView: View {
                 .italic()
                 .opacity(0.85)
                 .padding(.top, -2)
+
+                VStack {
+                    
+                    Divider()
+                    InfoView(infoTitle: appModel.portfolio.location, imageName: "mappin.and.ellipse")
+                        .padding(.top, 8)
+                    
+                    InfoView(infoTitle: appModel.portfolio.phone, imageName: "phone.fill")
+                        .padding(.top, 5)
+                    
+                    InfoView(infoTitle: appModel.portfolio.birth, imageName: "birthday.cake.fill")
+                        .padding(.top, 5)
+                    
+                    InfoView(infoTitle: appModel.portfolio.email, imageName: "envelope.fill")
+                        .padding(.top, 5)
+                    Divider()
+                }
+                .overlay(
+                    RoundedRectangle(cornerRadius: 12).stroke(.gray, lineWidth: 3)
+                )
+
+            Divider()
             
-            InfoView(infoTitle: appModel.portfolio.location, imageName: "mappin.and.ellipse")
-                .padding(.top, 8)
+            ProfileView()
             
-            InfoView(infoTitle: appModel.portfolio.phone, imageName: "phone.fill")
+            EducationView()
                 .padding(.top, 5)
-            
-            InfoView(infoTitle: appModel.portfolio.birth, imageName: "birthday.cake.fill")
-                .padding(.top, 5)
-            
-            InfoView(infoTitle: appModel.portfolio.email, imageName: "envelope.fill")
-                .padding(.top, 5)
-            
-            Text(appModel.portfolio.description)
-                .font(.system(size: 16, weight: .medium, design: .monospaced))
-                .italic()
-                .opacity(0.7)
-                .padding(.top, 24)
-                .multilineTextAlignment(.leading)
-                .lineSpacing(5)
             
         }//: VSTACK
     }

@@ -8,7 +8,18 @@
 import Foundation
 
 class AppModel: ObservableObject {
-    var portfolio: Portfolio = Portfolio(name: "Abdelrahman Shehab", role: "iOS Developer", description: "My passion for iOS development is a strong motivator behind my desire to excel in this field and land a job in the industry, I'm working on personal projects with UIKit and SwifUI.", location: "Cairo, Egypt", phone: "+201203526716", email: "abdoshehab7@gmail.com", birth: "19/6/1997", skills: [
+    var portfolio: Portfolio = Portfolio(
+        name: "Abdelrahman Shehab",
+        role: "iOS Developer",
+        description: "My passion for iOS development is a strong motivator behind my desire to excel in this field and land a job in the industry, I'm working on personal projects with UIKit and SwifUI.",
+        education: "BCs. Of Computer Engineering and Automated Control.",
+        university: "Tanta University",
+        graduationYear: "2015 - 2020",
+        location: "Cairo, Egypt",
+        phone: "+201203526716",
+        email: "abdoshehab7@gmail.com",
+        birth: "19/6/1997",
+        skills: [
         Skill(id: UUID().uuidString, skillName: "iOS", image: "apps.iphone"),
         Skill(id: UUID().uuidString, skillName: "SwiftUI", image: "swift"),
         Skill(id: UUID().uuidString, skillName: "MapKit", image: "map.circle"),
